@@ -23,7 +23,7 @@ public class TravelCostCalculator {
         pricePerGallon = in.nextDouble();
         
         totalCost = (distance/mpg)*pricePerGallon;
-        System.out.printf("The trip is goiing to cost $%5.2f",totalCost);
+        System.out.printf("The trip is going to cost $%5.2f",totalCost);
         System.out.println("");
         
         
